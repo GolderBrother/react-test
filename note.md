@@ -46,7 +46,7 @@ jsdom:在node端模拟浏览器的DOM操作的插件，因为node本身不支持
 
 生成ts.config配置文件
 
-tsx --init
+tsc --init
 
 Matchers
 匹配器

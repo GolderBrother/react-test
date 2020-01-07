@@ -1,0 +1,26 @@
+{
+  "name": "react-test",
+  "version": "1.0.0",
+  "description": "This is a unit-test demo of react",
+  "repository": "https://github.com/GolderBrother/react-test.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.7",
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.4",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
