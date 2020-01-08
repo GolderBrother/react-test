@@ -4,7 +4,7 @@ export default function MessageList(props: any) {
     return (
         <ul className="list-group">
             {
-                props.messageList.map((message: any, index: number) => (
+                props.messages.map((message: any, index: number) => (
                     <Message message={message} key={message.id} />
                 ))
             }

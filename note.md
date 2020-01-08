@@ -201,5 +201,33 @@ GTD就是Getting Things Done的缩写，翻译过来就是“把事情处理完�
 
 https://www.zhihu.com/topic/19671540/hot
 
+单元测试下半节：
+spec.ts结尾的也是测试用例
+simulate: 模拟点击
+toHaveLength: 有几个元素
+toBeTruthy: 是否存在，不能是undefined
 
+写业务的单元测试不多，写工具库的时候多
+
+puppeteer jest-puppeteer
+启动无头浏览器
+
+生成jest配置文件
+jest --init
+
+jest.config.js文件改动
+改动：preset: "jest-puppeteer"
+注释：testEnvironment
+
+test: "jest"会走本地的babel配置文件来解析react jsx语法
+
+E2E：端到端测试
+node快速删除目录的依赖：rimraf
+
+cra找的测试用例目录是src下面的
+
+jest-puppeteer.json 配置
+
+会往测试用例中注入page对象
+jest: jest-puppeteer
 

@@ -1,12 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## TDD
+## Available Scripts
 
-Test Driver development
-测试驱动开发
-
-先写测试用例 -> 再写对应的业务代码
-刚开始的时候测试用例是失败的，不断更改直至成功，然后再写对应的业务代码
+In the project directory, you can run:
 
 ### `yarn start`
 
