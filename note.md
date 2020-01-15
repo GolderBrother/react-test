@@ -33,7 +33,7 @@ Line:行
 生成jest配置文件
 jest --init
 
-yarn add --dev babel-jest @types/ @babel/preset-env @babel/preset-react @babel/typescripts
+yarn add --dev babel-jest @types/ @babel/preset-env @babel/preset-react @babel/preset-typescript
 targets: {
 	node: "current"
 }
