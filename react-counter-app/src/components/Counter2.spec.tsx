@@ -1,5 +1,5 @@
 import React from "react";
-import "jsdom-global";
+import "jsdom-global/register";
 import Enzyme, { mount, shallow } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 import Counter2 from "./Counter2";
